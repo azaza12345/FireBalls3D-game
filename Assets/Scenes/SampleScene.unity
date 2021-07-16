@@ -1077,6 +1077,7 @@ GameObject:
   - component: {fileID: 1881671561}
   - component: {fileID: 1881671563}
   - component: {fileID: 1881671562}
+  - component: {fileID: 1881671564}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1200,6 +1201,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881671560}
   m_CullTransparentMesh: 1
+--- !u!114 &1881671564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881671560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa1cfb5b07a7a96428ee1de2a3057d5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sizeView: {fileID: 1881671562}
+  _tower: {fileID: 5622358572420976487}
 --- !u!1 &2021281547
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,6 +1430,17 @@ PrefabInstance:
     - {fileID: 941537486619475361, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
     - {fileID: 5426489889764563138, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
+--- !u!114 &5622358572420976487 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1932021606, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
+  m_PrefabInstance: {fileID: 5622358572420976486}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfedf1d79cb55d04ab6ccfec8051932b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6120555874090352558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1465,6 +1491,10 @@ PrefabInstance:
     - target: {fileID: 6120555874235062714, guid: ecb7b08ff1cebde4ab9fc5cb39369501, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6120555874235062715, guid: ecb7b08ff1cebde4ab9fc5cb39369501, type: 3}
+      propertyPath: _recoilDistance
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6120555874235062718, guid: ecb7b08ff1cebde4ab9fc5cb39369501, type: 3}
       propertyPath: m_Name

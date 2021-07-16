@@ -54,21 +54,21 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Tower.cs" />
      <Compile Include="Assets\MobileDepthWater\Scripts\FPSUI.cs" />
+     <Compile Include="Assets\Scripts\Obstacle.cs" />
      <Compile Include="Assets\MobileDepthWater\Scripts\AnimationStarter.cs" />
+     <Compile Include="Assets\Scripts\Tank.cs" />
      <Compile Include="Assets\MobileDepthWater\Scripts\Water\WaterMaterialSwitcher.cs" />
      <Compile Include="Assets\Scripts\Block.cs" />
      <Compile Include="Assets\MobileDepthWater\Scripts\CameraDepthSlider.cs" />
      <Compile Include="Assets\MobileDepthWater\Scripts\FPSCounter.cs" />
+     <Compile Include="Assets\Scripts\TowerSizeView.cs" />
      <Compile Include="Assets\Scripts\TowerBuilder.cs" />
      <Compile Include="Assets\MobileDepthWater\Scripts\CameraRotator.cs" />
      <Compile Include="Assets\MobileDepthWater\Scripts\Water\WaterArea.cs" />
+     <Compile Include="Assets\Scripts\Bullet.cs" />
+     <Compile Include="Assets\Scripts\ObstacleRotator.cs" />
      <Compile Include="Assets\MobileDepthWater\Scripts\TouchRotator.cs" />
      <Compile Include="Assets\MobileDepthWater\Scripts\Water\WaterPropertyBlockSetter.cs" />
-     <Compile Include="Assets\Scripts\Bullet.cs" />
-     <Compile Include="Assets\Scripts\Tank.cs" />
-     <Compile Include="Assets\Scripts\Obstacle.cs" />
-     <Compile Include="Assets\Scripts\ObstacleRotator.cs" />
-     <Compile Include="Assets\Scripts\TowerSizeView.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\MobileDepthWater\Shaders\WaterTwoSide\Height\DiffuseColorHeightWaterTwoSide.shader" />
