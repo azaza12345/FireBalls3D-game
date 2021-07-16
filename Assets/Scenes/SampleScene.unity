@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientSkyColor: {r: 0.9150943, g: 0.3168534, b: 0.29927605, a: 1}
+  m_AmbientEquatorColor: {r: 0.4339623, g: 0.43184105, b: 0.19924052, a: 1}
+  m_AmbientGroundColor: {r: 0.3454669, g: 0.44257173, b: 0.8018868, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
@@ -308,7 +308,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1204
+  m_Name: pb_Mesh-39852
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -659,6 +659,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 40, y: 0, z: 0}
+--- !u!1 &971352212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 971352216}
+  - component: {fileID: 971352215}
+  - component: {fileID: 971352214}
+  - component: {fileID: 971352213}
+  m_Layer: 0
+  m_Name: Water Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &971352213
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971352212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &971352214
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971352212}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d3e0305da2201634094bf62297f3b0da, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &971352215
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971352212}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &971352216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971352212}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.120361835, y: -0.59, z: -3.911629}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!850595691 &1005240864
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -726,7 +822,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18620
+  m_Name: pb_Mesh26860
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -890,7 +986,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-19832
+  m_Name: pb_Mesh26844
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1330,6 +1426,46 @@ PrefabInstance:
       propertyPath: _block
       value: 
       objectReference: {fileID: 1900934435283778075, guid: 04ae516d3a7c3b548a2ee745905d649f, type: 3}
+    - target: {fileID: 1932021605, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
+      propertyPath: _towerSize
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932021605, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
+      propertyPath: _colors.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932021605, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
+      propertyPath: _colors.Array.data[0].a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932021605, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
+      propertyPath: _colors.Array.data[0].b
+      value: 0.38039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932021605, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
+      propertyPath: _colors.Array.data[0].g
+      value: 0.63529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932021605, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
+      propertyPath: _colors.Array.data[0].r
+      value: 0.95686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932021605, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
+      propertyPath: _colors.Array.data[1].a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932021605, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
+      propertyPath: _colors.Array.data[1].b
+      value: 0.05490196
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932021605, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
+      propertyPath: _colors.Array.data[1].g
+      value: 0.39215687
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932021605, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
+      propertyPath: _colors.Array.data[1].r
+      value: 0.8039216
+      objectReference: {fileID: 0}
     - target: {fileID: 431982019775241464, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
       propertyPath: m_Mesh
       value: 
