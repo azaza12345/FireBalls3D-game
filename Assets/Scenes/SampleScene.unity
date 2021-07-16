@@ -1326,6 +1326,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1932021605, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
+      propertyPath: _block
+      value: 
+      objectReference: {fileID: 1900934435283778075, guid: 04ae516d3a7c3b548a2ee745905d649f, type: 3}
     - target: {fileID: 431982019775241464, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1357,6 +1361,14 @@ PrefabInstance:
     - target: {fileID: 4873305796966857115, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622358572171919362, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622358572171919362, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 5866377108236223259, guid: 86ff4b5d2c5e68c40bf60d3f61468a6d, type: 3}
       propertyPath: m_Mesh
